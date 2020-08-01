@@ -226,4 +226,47 @@ padding: 29px 0 0 0;
   font-size: 14px;
   padding-bottom: 77px;
 }
+
+/*FOOTER*/
+
+footer{padding: 30px;}
+
+.copyright {
+color: #555555;
+font-family: Montserrat;
+font-size: 14px;
+letter-spacing: -0.35px;
+width: 30%;
+line-height: 50px;
+margin-right: 119px;
+}
+
+footer .container {
+  display: flex;
+}
+
+footer ul {
+  width: 30%;
+  line-height: 30px;
+}
+
+footer li {
+  display: inline-block;
+  position: relative;
+  width: 41px;
+  height: 40px;
+  background-color: #222222;
+  border-radius: 50%;
+  font-size: 0;
+}
+
+footer a{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /*# sourceMappingURL=style.css.map */

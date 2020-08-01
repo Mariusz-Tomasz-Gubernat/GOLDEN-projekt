@@ -175,11 +175,32 @@ $rob: 'Roboto Slab', serif;/*fw-400*/
 }
 
 /*PORTFOLIO*/
+/*PORTFOLIO*/
 
-.portfolio .container {
+.portfolio {
+    margin-top: 118px;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  
+  .portfolio .container {
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-between;  
     flex-wrap: wrap;}
+  
+  .portfolio h2 {
+    color: #222222;
+    font-size: 40px;
+    line-height: 75px;
+    letter-spacing: -1px;
+    padding-top: 120px;  
+  } 
+  
+  .portfolio p {
+    color: #777777;
+    font-size: 16px;
+    padding-bottom: 76px;
+    }
   
   .portfolio .container div {
     display: flex;
@@ -190,8 +211,16 @@ $rob: 'Roboto Slab', serif;/*fw-400*/
   .portfolio img {
     width: 100%;
   }
-
-  .portfolio {
-      background-color: grey;
-      padding-bottom: 70px;
+  
+  .portfolio .section-subtitle {
+  color: #333333;
+  font-size: 18px;
+  letter-spacing: -0.45px;
+  padding: 29px 0 0 0;
+  }
+  
+  .portfolio .subtext {
+    color: #737373;
+    font-size: 14px;
+    padding-bottom: 77px;
   }
