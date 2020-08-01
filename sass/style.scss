@@ -69,7 +69,7 @@ $rob: 'Roboto Slab', serif;/*fw-400*/
     line-height: 41px;
     text-transform: uppercase;
     padding-left: 40px;
-}
+}/
   
   .welcome {
       margin-top: 10px;
@@ -165,7 +165,7 @@ $rob: 'Roboto Slab', serif;/*fw-400*/
     padding-bottom: 80px;
   }
   
-  
+
   .services .container p{
     color: #777777;
     font-family: $rob;
@@ -173,3 +173,25 @@ $rob: 'Roboto Slab', serif;/*fw-400*/
     font-weight: 400;
     letter-spacing: -0.35px;
 }
+
+/*PORTFOLIO*/
+
+.portfolio .container {
+    display: flex;
+    justify-content: space-around;  
+    flex-wrap: wrap;}
+  
+  .portfolio .container div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+  }
+  .portfolio img {
+    width: 100%;
+  }
+
+  .portfolio {
+      background-color: grey;
+      padding-bottom: 70px;
+  }
