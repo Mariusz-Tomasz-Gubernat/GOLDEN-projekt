@@ -13,7 +13,9 @@ $rob: 'Roboto Slab', serif;/*fw-400*/
   body {
     max-width: 1400px;
   }
-  
+  .container {
+    margin: 0 10%;
+  }  
   .section-subtitle {
     color: #ffffff;
     font-family: Montserrat;
@@ -104,3 +106,70 @@ $rob: 'Roboto Slab', serif;/*fw-400*/
     height: 65px;
     background-color: #fed136;
   }
+
+  /*SERVICES*/
+
+  .services {
+    text-align: center;
+  }
+
+  .services a {
+    margin:  0 auto;
+    border-radius: 50%;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    border: 3px solid #fed136;
+    background-color: #ffffff;
+  }
+
+  .services img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .services .container {
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .services .container div {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+
+  .services .section-subtitle{
+    padding: 120px 0 0 0;
+    color: #222222;
+    font-size: 40px;
+    line-height: 75px;
+    letter-spacing: -1px;
+  }
+  .services .container h2 {
+    color: #222222;
+    font-size: 18px;
+    padding: 0;
+    letter-spacing: -0.45px;
+    }
+
+  .subtext {
+    color: #777777;
+    font-family: $est;
+    font-size: 16px;
+    padding-bottom: 80px;
+  }
+  
+  
+  .services .container p{
+    color: #777777;
+    font-family: $rob;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+}
