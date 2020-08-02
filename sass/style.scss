@@ -27,7 +27,7 @@ $rob: 'Roboto Slab', serif;/*fw-400*/
   /*SPLASH*/
   .splash {
     position: relative;
-    height: 700px;
+    min-height: 700px;
   }
   
   .splash .background {
@@ -63,7 +63,7 @@ $rob: 'Roboto Slab', serif;/*fw-400*/
   .navigation li a {
     text-decoration: none;
     color: #ffffff;
-    font-family: "Montserrat", sans-serif;
+    font-family: $mont;
     font-size: 14px;
     font-weight: 400;
     line-height: 41px;
@@ -72,7 +72,7 @@ $rob: 'Roboto Slab', serif;/*fw-400*/
 }
   
   .welcome {
-      margin-top: 10px;
+    margin-top: 10px;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -175,7 +175,6 @@ $rob: 'Roboto Slab', serif;/*fw-400*/
 }
 
 /*PORTFOLIO*/
-/*PORTFOLIO*/
 
 .portfolio {
     margin-top: 118px;
@@ -240,7 +239,6 @@ font-size: 14px;
 letter-spacing: -0.35px;
 width: 40%;
 line-height: 50px;
-// margin-right: 119px;
 }
 
 footer .container {
@@ -319,3 +317,44 @@ footer ul {
   padding-left: 50px;
 }
 }
+@media (max-width: 575px){  
+  .section-title {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+    
+  .section-subtitle {
+    font-size: 50px;
+    letter-spacing: -1.88px;
+  }
+  .welcome {
+    margin-top: 30px;}
+  }
+    
+  .services .container div {
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    }
+  .portfolio .container div {
+    width: 45%;
+  }
+  .portfolio .section-subtitle {
+    font-size: 16px;
+  }
+  .copyright {
+    font-size: 14px;
+    letter-spacing: -0.35px;
+    width: 100%;
+  }
+  footer .container{
+    flex-direction: column;
+    text-align: center;
+  }
+  footer ul {
+    padding: 10px 0 0 0;
+    width: 100%;
+  }  
+  .subtext {
+    padding-bottom: 0;
+  }
